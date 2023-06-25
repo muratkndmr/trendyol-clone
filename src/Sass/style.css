@@ -1,0 +1,549 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "source_sans_prosemibold", sans-serif;
+}
+
+body {
+  height: 300vh;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin-bottom: 0px !important;
+}
+
+.navSolUst {
+  display: flex;
+  justify-content: end;
+}
+.navSolUst a {
+  color: #999;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.kisimlar a {
+  color: #333333;
+  font-size: 14px;
+  padding-top: 7px;
+  font-family: source_sans_prosemibold, serif !important;
+  text-decoration: none;
+}
+.kisimlar a:hover {
+  color: #f27a1a;
+}
+
+.kisimlar {
+  margin-top: 1rem;
+  margin-left: 6rem;
+}
+
+.icon {
+  font-size: 17px;
+  margin-right: 2px;
+  margin-bottom: 0.3rem;
+}
+
+.inputGi {
+  background-color: #f3f3f3;
+  color: #333;
+  border-radius: 6px;
+  padding: 9px 30px 9px 15px;
+  width: 600px;
+  border: none;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+.navPoT {
+  position: relative;
+}
+
+.inputGit {
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 6px;
+  padding: 9px 30px 9px 30px;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6 !important;
+  position: relative;
+  top: -30px;
+}
+
+.trenLogo {
+  width: 190px;
+}
+
+.icons {
+  position: absolute;
+  top: 18px;
+  left: 570px;
+  font-size: 20px;
+  color: #f27a1a;
+}
+
+.iconsR {
+  position: absolute;
+  top: 86px;
+  left: 20px;
+  font-size: 18px;
+  color: #bdb6b6;
+}
+
+.container {
+  max-width: 1230px !important;
+}
+
+.etiketlerA {
+  font-size: 14px;
+  line-height: 34px;
+  letter-spacing: 0.18px;
+  color: #333;
+  text-decoration: none;
+  margin-left: 2.1rem;
+  font-family: source_sans_prosemibold, serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+.etiketlerA:hover {
+  color: #f27a1a;
+  border-bottom: 2px solid #f27a1a;
+  padding-bottom: 0.5rem;
+}
+
+.etiketlerA > span {
+  background-color: #dc2e2e;
+  border-radius: 30%;
+  color: #fff;
+  font-size: 12px;
+  padding-right: 0.2rem;
+}
+.etiketlerA > span:hover {
+  color: #f27a1a;
+}
+
+.etiketlera {
+  font-size: 14px;
+  line-height: 34px;
+  letter-spacing: 0.18px;
+  color: #f27a1a;
+  text-decoration: none;
+  margin-left: 1.2rem;
+  font-family: source_sans_prosemibold, serif !important;
+  border-bottom: 2px solid #f27a1a;
+  padding-bottom: 0.5rem;
+}
+
+hr {
+  margin: 0 !important;
+}
+
+.col-1 {
+  width: 10% !important;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #e9e4e4;
+}
+
+.slick-slide:hover {
+  color: #f27a1a;
+  cursor: pointer;
+}
+
+.slick-slide:hover .imgSlider {
+  border: 1px solid #f27a1a;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+.imgSlider {
+  border: 1px solid #c7abab;
+  border-radius: 50%;
+}
+.imgSlider:hover {
+  border: 1px solid #f27a1a;
+}
+
+.sliderSpan {
+  font-size: 14px;
+  font: bold;
+}
+.sliderSpan:hover {
+  color: #f27a1a;
+}
+
+.cardS {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.cardB {
+  border-radius: 0px 0px 7px 7px !important;
+  border: none !important;
+  font-size: 14px !important;
+}
+
+.cardSpan {
+  display: none;
+}
+
+.cardCol:hover {
+  cursor: pointer;
+}
+.cardCol:hover .cardB {
+  background-color: #f27a1a;
+}
+
+.cardCol:hover .cardSpan {
+  display: block;
+  font-size: 14px;
+}
+
+.ust {
+  background-image: url("https://cdn.dsmcdn.com/marketing/datascience/automation/2023/6/6/Productbackground_202306061959.png");
+}
+
+.urunler {
+  border-radius: 6px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fffaf6;
+  border: 1px solid #f2e5da;
+}
+
+.card {
+  text-align: start;
+}
+
+.imgSlider1 {
+  margin: auto;
+  padding-top: 15px;
+  position: relative;
+}
+
+.sliderP {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #887777;
+}
+
+.sliderA {
+  text-decoration: none;
+  color: #f27a1a;
+  font-weight: 550;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.sliderIc {
+  border: 1px solid #ded7d7;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+  bottom: 212px;
+  left: 142px;
+}
+
+.sliderIma {
+  position: relative;
+  bottom: 327px;
+  left: 11px;
+}
+
+.cardSlider {
+  padding-left: 1rem;
+}
+
+.sectionT p {
+  font-size: 13px;
+  text-align: justify;
+  line-height: 24px;
+  color: #333;
+  font-family: source_sans_proregular !important;
+}
+
+.sectionT h4 {
+  line-height: 25px;
+  font-size: 23px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sectionT h5 {
+  max-width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sectionEtiket a {
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 13px;
+}
+
+.sectionEtiket li {
+  padding-bottom: 0.1rem;
+}
+
+.sectionEtiket h5 {
+  padding-left: 2.6rem;
+}
+
+.footerT {
+  background: black;
+}
+
+.footerT a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.footerT li {
+  padding-bottom: 0.7rem;
+}
+
+.footterA {
+  font-size: 20px !important;
+}
+
+.footerD {
+  background: #2d2d2d;
+}
+
+.footerD p {
+  font-size: 12px;
+  padding-right: 5rem;
+}
+
+.footerD a {
+  font-size: 12px;
+}
+
+.cardTicket2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconOff {
+  font-size: 22px;
+  margin-right: 15px;
+  margin-bottom: 7px;
+}
+
+.aOff {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f27a1a;
+}
+
+.iconOfr {
+  text-align: end;
+}
+
+.liOff {
+  display: flex;
+  justify-content: space-between;
+}
+
+.respoP {
+  font-size: 11px;
+}
+
+.headeralt1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+  .mediaIcon {
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+  }
+}
+.iconR {
+  font-size: 27px;
+  margin-left: 35px;
+}
+
+.listIconCol {
+  display: flex;
+}
+
+.navSolUst {
+  display: none;
+}
+
+.headerEti, .inputG {
+  display: none;
+}
+
+.navbar .container-fluid {
+  padding-left: 0px !important;
+}
+
+.mediaH1 {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 55px;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.mediaH6 {
+  font-size: 10px;
+  padding-left: 15px;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.listIcon {
+  font-size: 35px;
+  margin-top: 0.3rem;
+}
+
+.navbaH1 {
+  font-size: 25px;
+  margin-top: 0.6rem;
+  margin-left: 5px;
+}
+
+.navT {
+  display: none;
+}
+
+.listIconP {
+  display: inline-grid;
+}
+
+.listIconp {
+  font-size: 11px;
+  padding-left: 4px;
+}
+
+.navTr {
+  height: 130px;
+}
+
+.resposNav {
+  display: block;
+}
+
+.headeralt1Re {
+  width: 100%;
+}
+
+.headeraltCo {
+  margin-bottom: 1.5rem;
+}
+
+.sliderConta {
+  margin-top: 0px;
+}
+
+.cardCol {
+  margin-top: 20px;
+}
+
+.urunler {
+  padding: 0px 0px 0px 0px;
+}
+
+.ust {
+  height: auto;
+}
+
+.cardTicket2 img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footerDis {
+  display: none;
+}
+
+.sectionT h4 {
+  height: auto;
+}
+
+@media screen and (min-width: 993px) {
+  .mediaIcon {
+    display: none;
+  }
+  .mediaH6, .inputGit, .mediaH1 {
+    display: none;
+  }
+  .headerEti, .headerEti2 {
+    display: block;
+  }
+  .navSolUst {
+    display: flex;
+  }
+  .listIcon {
+    display: none;
+  }
+  .navbaH1 {
+    display: none;
+  }
+  .navT {
+    display: block;
+  }
+  .navTr, .resposNav {
+    display: none;
+  }
+  .headerEti2 {
+    display: block;
+  }
+  .headeralt1Re {
+    width: 390px;
+  }
+  .headeraltCo {
+    margin-bottom: auto;
+  }
+  .sliderConta {
+    margin-top: 40px;
+  }
+  .cardCol {
+    margin-top: 0px;
+  }
+  .urunler {
+    padding: 0px 0px 150px 0px;
+  }
+  .ust {
+    height: 35vh;
+  }
+  .cardTicket2 img {
+    width: 390px;
+  }
+  .footerDis {
+    display: block;
+  }
+  .sectionT h4 {
+    height: 25px;
+  }
+  .cardTickket {
+    margin-top: 30px;
+  }
+  .cardMt {
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
