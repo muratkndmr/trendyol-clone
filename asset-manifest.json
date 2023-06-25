@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/trendyol-clone/static/css/main.c500f708.css",
+    "main.js": "/trendyol-clone/static/js/main.e414280d.js",
+    "static/js/787.f3dbcf08.chunk.js": "/trendyol-clone/static/js/787.f3dbcf08.chunk.js",
+    "index.html": "/trendyol-clone/index.html",
+    "main.c500f708.css.map": "/trendyol-clone/static/css/main.c500f708.css.map",
+    "main.e414280d.js.map": "/trendyol-clone/static/js/main.e414280d.js.map",
+    "787.f3dbcf08.chunk.js.map": "/trendyol-clone/static/js/787.f3dbcf08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c500f708.css",
+    "static/js/main.e414280d.js"
+  ]
+}
